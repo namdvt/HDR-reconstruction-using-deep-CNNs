@@ -2,10 +2,10 @@
 ## General
 This is the pytorch implementation for HDR reconstruction algorithm using deep CNNs, which was proposed in:
   
-*Gabriel Eilertsen, Joel Kronander, Gyorgy Denes, Rafał K. Mantiuk, Jonas Unger, "HDR image reconstruction from a single exposure using deep CNNs," ACM Transactions on GraphicsNovember 2017*
+*Gabriel Eilertsen, Joel Kronander, Gyorgy Denes, Rafał K. Mantiuk, Jonas Unger, "HDR image reconstruction from a single exposure using deep CNNs," ACM Transactions on Graphics, November 2017*
 
 ### Dataset
-I used Kalantari's dataset for training and testing purposes, which was downloaded from  
+I used Kalantari's dataset for training and testing purposes, which was downloaded from:  
 https://cseweb.ucsd.edu/~viscomp/projects/SIG17HDR/
 
 Since this dataset is used for HDR synthesis task, I only used center images for HDR reconstruction. The LDR and HDR images were split into smaller patches, then an annotation file was created for storing their addresses.
