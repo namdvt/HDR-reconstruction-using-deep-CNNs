@@ -23,7 +23,7 @@ if __name__ == '__main__':
     device = torch.device("cuda:0" if (torch.cuda.is_available()) else "cpu")
     model = Model(device).to(device)
     model.eval()
-    model.load_state_dict(torch.load('output/separate_loss_false/weight.pth', map_location=device))
+    model.load_state_dict(torch.load('output/weight.pth', map_location=device))
 
     # Load images
     ldr = cv2.imread('test/1.png')
