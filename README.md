@@ -34,7 +34,7 @@ Training and validation loss:
 ```
 python predict.py
 ```
-Experimental results:
+Experimental results (For display purpose, gamma correction was applied to HDR images):
 ![Image description](test/results/1.png)
 ![Image description](test/results/2.png)
 ![Image description](test/results/3.png)
